@@ -4,9 +4,9 @@ ENV NODE_ENV=production
 
 WORKDIR /usr/src/api
 
-COPY package.jason .
+COPY package.json .
 
-COPY package-lock.jason .
+COPY package-lock.json .
 
 RUN npm install
 
